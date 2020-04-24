@@ -1,0 +1,160 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 575px
+*/
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+.highlight-section{
+	margin-top: -150px;
+}
+.inner-principal{
+	width: 100%;
+	padding: 90px 0px;
+	background: url(../images/bg.png) center top no-repeat;
+	background-size: cover;
+}
+.inner-principal .inner-text{
+	width: 100%;
+	padding: 0px 40px 0px 0px;
+}
+.left-text{
+	position: absolute;
+	left: 35%;
+	padding-top: 20%;
+
+}
+.inner-design-1, .inner-design-2{
+	border-right: none;
+}
+.inner-faq h1{
+	font-size: 35px;
+	line-height: 42px;
+	color: #000;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 576px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+.header-section{
+	width: 100%;
+	padding-bottom: 30px;
+}
+.banner{
+	width: 100%;
+	padding: 30px 0px;
+}
+
+.banner .inner-banner{
+	width: 100%;
+	padding: 0px 0px;
+}
+.banner h1{
+	font-size: 35px;
+	color: #000;
+	font-weight: 800;
+}
+
+.highlight-section{
+	top: 0;
+	margin-top: -50px;
+}
+.inner-principal{
+	width: 100%;
+	padding: 90px 0px;
+	background: url(../images/bg.png) center top no-repeat;
+	background-size: cover;
+}
+.inner-design-1, .inner-design-2{
+	border-right: none;
+}
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 991px
+*/
+
+@media (min-width: 768px) and (max-width: 991px){
+
+.header-section{
+	width: 100%;
+	padding-bottom: 60px;
+}
+.banner{
+	width: 100%;
+	padding: 30px 0px;
+}
+
+.banner .inner-banner{
+	width: 100%;
+	padding: 60px 0px;
+}
+.banner h1{
+	font-size: 35px;
+	color: #000;
+	font-weight: 800;
+}
+
+.highlight-section{
+	margin-top: -30px;
+}
+.left-text{
+	position: absolute;
+	top: 0;
+	left: 32%;
+	padding: 60px 0px 0px 0px;
+
+}
+.left-text h6{
+	font-size: 12px;
+	color: #fff;
+	font-weight: 500;
+}
+.quote-right{
+	width: 100%;
+	padding-top: 30px;
+}
+.campaign-section .right-campaign{
+	width: 100%;
+	padding: 150px 0px;
+}
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 992px to 1199px
+*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.highlight-section{
+	margin-top: -3%;
+}
+.inner-principal{
+	padding: 90px 20px;
+}
+.left-text{
+	position: absolute;
+	top: 0;
+	left: 35%;
+	padding: 120px 0px 0px 0px;
+
+}
+.campaign-section .right-campaign{
+	width: 100%;
+	padding: 120px 0px;
+}
+
+
+}
+

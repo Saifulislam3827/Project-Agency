@@ -1,0 +1,496 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Libre Franklin', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/******************************************************************
+*******************Header Section Code Starts**********************
+*******************************************************************/
+
+.header-section{
+	width: 100%;
+	background: url(../images/banner.png) center top no-repeat;
+	background-size: cover;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+.logo{
+	width: 100px;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+    color: #511de5;
+    font-size: 16px;
+    font-weight: 600;
+    background: url(../images/line.png) center bottom no-repeat;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #511de5;
+	background: url(../images/line.png) center bottom no-repeat;
+}
+.nav .nav-item .nav-link{
+	color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+.nav .nav-item .btn-info{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 0px 10px;
+	padding: 5px 50px;
+	border-radius: 30px;
+	border: 1px solid #511de5;
+	background: #511de5;
+}
+.nav .nav-item .btn-info:hover{
+	background: transparent;
+	transition: 0.5s;
+	color: #000;
+	border: 2px solid #511de5;
+}
+
+.banner{
+	width: 100%;
+	padding: 120px 0px;
+}
+.banner .inner-banner{
+	width: 100%;
+	padding: 60px 0px;
+}
+.banner h1{
+	font-size: 48px;
+	color: #000;
+	font-weight: 800;
+}
+.banner h1 strong{
+	color: #511de5;
+}
+.banner a{
+	margin-top: 10px;
+}
+.banner .btn-info{
+	color: #162022;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 6px 30px;
+	border-radius: 30px;
+	border: 1px solid #f2f2f2;
+	background: #f2f2f2;
+}
+.banner .btn-info:hover{
+	color: #f2f2f2;
+	background: #511de5;
+	transition: 1s;
+}
+
+/******************************************************************
+*******************Header Section Code Ends************************
+*******************************************************************/
+
+/******************************************************************
+*******************Highlight Section Code Starts*******************
+*******************************************************************/
+
+.highlight-section{
+	width: 100%;
+	background: url(../images/highlight.png) center top no-repeat;
+	background-size: cover;
+	top: 0;
+	margin-top: -35px;
+}
+.highlight-section .inner-highlight{
+	width: 100%;
+	padding: 70px 0px 25px 0px;
+}
+.inner-highlight h3{
+	font-size: 22px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+}
+
+/******************************************************************
+*******************Highlight Section Code Ends*********************
+*******************************************************************/
+
+/******************************************************************
+*******************Principal Section Code Starts*******************
+*******************************************************************/
+
+.principal-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-principal{
+	width: 100%;
+	padding: 90px 80px;
+	background: url(../images/bg.png) center top no-repeat;
+	background-size: cover;
+}
+.inner-principal h1{
+	font-size: 30px;
+	line-height: 32px;
+	color: #000;
+	font-weight: 900;
+}
+.inner-principal p{
+	font-size: 10px;
+	line-height: 18px;
+	color: #000;
+	font-weight: 600;
+	margin: 20px 0px;
+}
+.inner-principal h3{
+	margin-top: 35px;
+}
+.inner-principal h3 strong{
+	font-size: 55px;
+	color: #511de5;
+	font-weight: 900;
+}
+.principal-img{
+	padding: 60px;
+}
+
+/******************************************************************
+*******************Principal Section Code Ends*********************
+*******************************************************************/
+
+/******************************************************************
+*******************Quote Section Code Starts***********************
+*******************************************************************/
+
+.quote-section{
+	width: 100%;
+	padding: 50px 0px;
+	background: #fafafa;
+}
+.quote-left{
+	width: 100%;
+}
+.left-img{
+	width: 100%;
+	position: relative;
+}
+.left-text{
+	position: absolute;
+	top: 0;
+	left: 35%;
+	padding: 150px 0px 0px 0px;
+
+}
+.left-text h6{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+.left-text h3{
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	font-weight: 500;
+}
+.quote-right{
+	width: 100%;
+	padding-top: 90px;
+}
+.quote-right h1{
+	font-size: 35px;
+	line-height: 45px;
+	color: #000;
+	font-weight: 900;
+}
+.quote-right .btn-div{
+	width: 100%;
+	margin-top: 25px;
+}
+.quote-right .btn-info{
+	color: #162022;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 6px 30px;
+	border-radius: 30px;
+	border: 1px solid #f2f2f2;
+	background: #f2f2f2;
+	text-transform: uppercase;
+}
+.quote-right .btn-info:hover{
+	color: #f2f2f2;
+	background: #0e87fa;
+	transition: 1s;
+}
+
+/******************************************************************
+*******************Quote Section Code Ends*************************
+*******************************************************************/
+
+/******************************************************************
+*******************Campaign Section Code Starts********************
+*******************************************************************/
+
+.campaign-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.campaign-section .left-campaign{
+	width: 100%;
+	padding: 50px 25px;
+}
+.campaign-section .left-campaign h1{
+	font-size: 40px;
+	line-height: 48px;
+	color: #000;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.campaign-section .left-campaign p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.campaign-section .left-campaign h6{
+	font-size: 16px;
+	line-height: 26px;
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.campaign-section .left-campaign .btn-div{
+	width: 100%;
+	margin-top: 30px;
+}
+.campaign-section .left-campaign .btn-div .btn-info{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 10px 30px;
+	border-radius: 30px;
+	border: 1px solid #511de5;
+	background: #511de5;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.campaign-section .left-campaign .btn-info:hover{
+	transition: 1s;
+	background: #0f86fa;
+	color: #fff;
+	border: 1px solid #0f86fa;
+}
+
+/******************************************************************
+*******************Campaign Section Code Ends**********************
+*******************************************************************/
+
+/******************************************************************
+*******************Design Section Code Starts**********************
+*******************************************************************/
+
+.design-section{
+	width: 100%;
+	padding: 90px 0px;
+	background: #fcfcfc;
+	border-top: 1px solid #e9e9e9;
+	border-bottom: 1px solid #e9e9e9;
+}
+.design-section h1{
+	font-size: 35px;
+	line-height: 42px;
+	color: #000;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.design-section p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	font-weight: 400;
+}
+.design-section .inner-design h3{
+	font-size: 25px;
+	line-height: 32px;
+	color: #000;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.design-section .inner-design p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	font-weight: 500;
+}
+.inner-design-1, .inner-design-2{
+	border-right: 1px solid #e9e9e9;
+}
+
+/******************************************************************
+*******************Design Section Code Ends************************
+*******************************************************************/
+
+/******************************************************************
+*******************Comment Section Code Starts*********************
+*******************************************************************/
+
+.comment-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.comment-section h1{
+	font-size: 45px;
+	line-height: 52px;
+	color: #000;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.comment-section .inner-comment{
+	width: 100%;
+	padding: 80px 30px 0px;
+	background: url(../images/comment.png) center top no-repeat;
+	background-size: cover;
+	box-shadow: 3px 3px 3px 3px #e9e9e9;
+	opacity: 0.5;
+}
+.comment-section .inner-comment h6{
+	font-size: 14px;
+	line-height: 24px;
+	color: #999;
+	font-weight: 500;
+	padding-bottom: 50px;
+}
+.comment-section .inner-comment-1{
+	padding: 30px 0px;
+	border-top: 1px solid #e9e9e9;
+}
+.comment-section .inner-comment-1 h3{
+	font-size: 16px;
+	line-height: 26px;
+	color: #999;
+	font-weight: 600;
+}
+.comment-section .inner-comment-1 p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #999;
+	font-weight: 400;
+}
+.inner-comment:hover{
+	opacity: 1;
+}
+.inner-comment:hover h6{
+	color: #0d89fb;
+}
+.inner-comment:hover .inner-comment-1 h3{
+	color: #000;
+}
+.inner-comment:hover .inner-comment-1 p{
+	color: #000;
+}
+
+/******************************************************************
+*******************Comment Section Code Ends***********************
+*******************************************************************/
+
+/******************************************************************
+*******************FAQ Section Code Starts*************************
+*******************************************************************/
+
+.faq-section{
+	width: 100%;
+	padding: 80px 0px;
+	margin-bottom: -100px;
+}
+.faq-section .inner-faq{
+	width: 100%;
+	padding: 50px 60px;
+	box-shadow: 3px 3px 3px 3px #e9e9e9;
+}
+.inner-faq h1{
+	font-size: 45px;
+	line-height: 52px;
+	color: #000;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.card {
+    border: 0;
+    text-align: left;
+}
+.card .card-header{
+	background: #fff;
+	text-align: left;
+}
+.card .card-body{
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	font-weight: 500;
+}
+.card-header h2 a{
+	font-size: 18px;
+	line-height: 26px;
+	color: #000;
+	font-weight: 600;
+}
+.card-header h2 a:hover{
+	color: #0000ff;
+}
+
+/******************************************************************
+*******************FAQ Section Code Ends***************************
+*******************************************************************/
+
+/******************************************************************
+*******************Footer Section Code Starts**********************
+*******************************************************************/
+
+.footer-section{
+	width: 100%;
+	background: #2662f3;
+	padding: 180px 0px 20px;
+	margin-top: -200px;
+}
+.footer-section ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+.footer-section ul li a{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	font-weight: 600;
+}
+.footer-section h6{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	font-weight: 600;
+}
+
+/******************************************************************
+*******************Footer Section Code Ends************************
+*******************************************************************/
+
